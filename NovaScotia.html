@@ -1,0 +1,58 @@
+<!--
+Name       :Khris Bragas
+Class      :Comp 3612
+Student ID :201660274
+Professor  :Randy Connolly
+Assignment :Project 1
+Due Date   :October 8, 2021
+File Name  :NovaScotia.html
+Description:The file that contains the html source code for NovaScotia.html includes,
+            a large image of the destination, a static map, a menu bar and a  short biography
+            about the location. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<link href="styles.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class = "imageheader">
+        <img id= "logo1"src="images/logo.png" alt="Logo of company">
+        <h1><a href ="index.html">HOME</a></h1>
+        <h1><a href="#">BROWSE</a></h1>
+        <h1><a href="#">DESTINATIONS</a></h1>
+        <h1><a href="#">FLIGHTS</a></h1>
+        <h1><a href="#">SEARCH</a></h1>
+        <h1><a href="#">ABOUT</a></h1>
+
+    </header>
+    <hr>
+    <div class = "largeImageBio">
+        <img src="images/1-large.jpg" alt="">
+        <h1>Explore Nova Scotia</h1>
+        <p>On board a small sailing ship leaving Lunenburg</p>
+        <p>44.373257, -64.307249</p>
+        <p>Lunenburg, Canada</p>
+        <img src = "images/heart.png" alt="">
+        <p class="likecomment">112</p>
+        <img src="images/comment.png"alt="">
+        <p class="likecomment">23</p>
+    </div>
+
+    <div class = mapImg>
+        <img src ="https://www.mapquestapi.com/staticmap/v5/map?key=B2ho9zlDFCPzHUx7qI5G9FaEPyKP6bGw&center=44.373257,-64.307249&size=300,300&locations=44.373257,-64.307249">
+    </div>
+    <footer>
+        <p>Copyright &copy; 2022 Travel</p>
+            <p>
+               <a href="#">PrivatePolicy</a> | <a href="#">About</a> | <a href="#">SiteMap</a>
+            </p>
+    </footer>
+    
+</body>
+</html>
